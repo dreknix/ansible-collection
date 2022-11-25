@@ -1,0 +1,7 @@
+---
+# Docker/Docker-Compose
+- src: git@github.com:dreknix/ansible-role-docker.git
+  scm: git
+  version: main
+  name: docker
+...

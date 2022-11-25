@@ -1,0 +1,9 @@
+---
+- name: Install Docker/Docker-Compose
+  hosts:
+    - docker
+  roles:
+    - role: docker
+      tags:
+        - docker
+...
